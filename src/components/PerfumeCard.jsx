@@ -37,9 +37,17 @@ export const PerfumeCard = ({ perfume }) => {
               ? 'bg-burgundy-900 text-white'
               : perfume.category === 'Splash'
               ? 'bg-emerald-800 text-white'
+              : perfume.category === 'Spray'
+              ? 'bg-amber-800 text-white'
               : 'bg-neutral-900 text-white'
           }`}>
-            {perfume.category === 'Perfumería Árabe' ? 'Árabe' : perfume.category === 'Splash' ? 'Splash' : 'Diseñador'}
+            {perfume.category === 'Perfumería Árabe'
+              ? 'Árabe'
+              : perfume.category === 'Splash'
+              ? 'Splash'
+              : perfume.category === 'Spray'
+              ? 'Spray'
+              : 'Diseñador'}
           </span>
           {perfume.isBestseller && (
             <span className="px-2 py-0.5 bg-champagne-500 text-burgundy-950 text-[9px] uppercase font-extrabold tracking-wider rounded shadow-xs">

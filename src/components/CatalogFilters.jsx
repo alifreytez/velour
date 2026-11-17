@@ -72,6 +72,11 @@ export const CatalogFilters = () => {
                   Splash
                 </span>
               )}
+              {cat === 'Spray' && (
+                <span className="px-2 py-0.5 bg-amber-800 text-white text-[10px] font-extrabold rounded-full">
+                  Spray
+                </span>
+              )}
             </button>
           );
         })}
@@ -84,7 +89,7 @@ export const CatalogFilters = () => {
         <div className="flex-1 relative">
           <input
             type="text"
-            placeholder="Buscar perfume, splash, marca (Lattafa, Carolina Herrera) o código..."
+            placeholder="Buscar perfume, splash, spray, marca (Lattafa, Carolina Herrera) o código..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-neutral-50 border border-neutral-300 rounded-md py-2.5 pl-10 pr-4 text-xs font-medium text-neutral-900 placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-burgundy-900 focus:bg-white"
