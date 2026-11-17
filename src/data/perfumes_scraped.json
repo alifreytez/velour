@@ -30572,5 +30572,845 @@
       "https://catalogo.perfumesmacedon.com/static/uploads/1786536613940917534_IMG_8996.jpeg"
     ],
     "id": "splash-119-ariana-grande-thank-u-next"
+  },
+  {
+    "id": "spray-1-lattafa-honor-glory",
+    "name": "Honor & Glory",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788012370618623898_Image_composition_instructions_r…_202608291002.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788012370621075356_IMG_9334.jpeg"
+    ]
+  },
+  {
+    "id": "spray-2-lattafa-fakhar-rose",
+    "name": "Fakhar Rose",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788012079477814872_Reemplazar_producto_en_imagen_pl…_202608290950.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788012079486178129_IMG_9012.jpeg"
+    ]
+  },
+  {
+    "id": "spray-3-lattafa-asad",
+    "name": "Asad",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788011864420485661_Reemplazar_producto_en_imagen_pl…_202608290943.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788011864425354378_IMG_9328.jpeg"
+    ]
+  },
+  {
+    "id": "spray-4-lattafa-khamrah",
+    "name": "Khamrah",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788010573426475433_Image_composition_template_gener…_202608281527.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788010573453074264_IMG_9340.jpeg"
+    ]
+  },
+  {
+    "id": "spray-5-lattafa-ajwad",
+    "name": "Ajwad",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788010114794219953_Reemplazar_producto_en_imagen_pl…_202608281234.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1788010114813443741_IMG_9343.jpeg"
+    ]
+  },
+  {
+    "id": "spray-6-lattafa-sublime",
+    "name": "Sublime",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787943711824394494_Replace_product_using_reference_…_202608281459.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787943711829034122_IMG_9027.jpeg"
+    ]
+  },
+  {
+    "id": "spray-7-lattafa-fakhar",
+    "name": "Fakhar",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787935504255982931_Replace_product_in_composition_i…_202608281232.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787935504274616359_IMG_9442.jpeg"
+    ]
+  },
+  {
+    "id": "spray-8-lattafa-yara-rosa",
+    "name": "Yara Rosa",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787930559936648065_Composite_image_using_product_re…_202608281118.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787930559940419346_IMG_9007.jpeg"
+    ]
+  },
+  {
+    "id": "spray-9-lattafa-oud-for-glory",
+    "name": "Oud For Glory",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "300ML AMBIENTADOR UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Ambientador Spray",
+    "volume": "300 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787930058265708614_Replace_product_in_image_composi…_202608281045.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787930058267017000_IMG_9441.jpeg"
+    ]
+  },
+  {
+    "id": "spray-10-armaf-odyssey-aoud",
+    "name": "Odyssey Aoud",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787919261345842777_Replacing_product_in_image_template_202608280811.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787919261348383106_IMG_9423.jpeg"
+    ]
+  },
+  {
+    "id": "spray-11-armaf-odyssey-homme-black",
+    "name": "Odyssey Homme Black",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787918581297400190_Reemplazar_producto_en_imagen_pl…_202608280750.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787918581339416030_IMG_9421.jpeg"
+    ]
+  },
+  {
+    "id": "spray-12-armaf-odyssey-homme-white",
+    "name": "Odyssey Homme White",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO\r\n62940115190656",
+    "barcode": "62940115190656",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 5.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787855302688786998_Image_composition_and_product_re…_202608241149.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787855302690235357_IMG_9410.jpeg"
+    ]
+  },
+  {
+    "id": "spray-13-armaf-odyssey-dubai-chocolat",
+    "name": "Odyssey Dubai Chocolat",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787843912697322365_Reemplazar_producto_en_imagen_pl…_202608221155.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787843912699193032_IMG_9402.jpeg"
+    ]
+  },
+  {
+    "id": "spray-14-armaf-odyssey-tyrant",
+    "name": "Odyssey Tyrant",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787843763075215518_Replacing_product_in_composition…_202608221151.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787843763078187810_IMG_9401.jpeg"
+    ]
+  },
+  {
+    "id": "spray-15-armaf-odyssey-limoni-fresh",
+    "name": "Odyssey Limoni Fresh",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787837137080629830_Replace_product_in_reference_image_202608221146.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787837137083150935_IMG_9392.jpeg"
+    ]
+  },
+  {
+    "id": "spray-16-armaf-odyssey-wild-one",
+    "name": "Odyssey Wild One",
+    "brand": "Armaf",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 4.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787836378579050624_Reemplazar_producto_en_imagen_pl…_202608221042.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787836378596918114_IMG_9391.jpeg"
+    ]
+  },
+  {
+    "id": "spray-17-emper-melina",
+    "name": "Melina",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787834915261712602_Reemplazar_producto_usando_image…_202608241415.jpeg"
+    ]
+  },
+  {
+    "id": "spray-18-emper-genius-lover",
+    "name": "Genius Lover",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787834780195545516_Composing_image_using_template_202608241404.jpeg"
+    ]
+  },
+  {
+    "id": "spray-19-emper-moda",
+    "name": "Moda",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787834685998233694_Reemplazar_producto_en_imagen_pl…_202608241101.jpeg"
+    ]
+  },
+  {
+    "id": "spray-20-emper-arabia-haya-crush",
+    "name": "Arabia Haya Crush",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787833838383859484_Reemplazar_producto_en_imagen_pl…_202608270829.jpeg"
+    ]
+  },
+  {
+    "id": "spray-21-emper-arabia-haya",
+    "name": "Arabia Haya",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787832631274271798_Image_composition_instructions_r…_202608241039.jpeg"
+    ]
+  },
+  {
+    "id": "spray-22-emper-just-for-love",
+    "name": "Just For Love",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787832387266235493_Reemplazar_producto_en_imagen_pl…_202608270804.jpeg"
+    ]
+  },
+  {
+    "id": "spray-23-emper-aruba-cold",
+    "name": "Aruba Cold",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787773604517964163_Replacing_product_in_image_compo…_202608241015.jpeg"
+    ]
+  },
+  {
+    "id": "spray-24-emper-genius-vesper",
+    "name": "Genius Vesper",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787762363635229580_Replace_product_in_studio_image_202608261237.jpeg"
+    ]
+  },
+  {
+    "id": "spray-25-emper-genius-oud-mystique",
+    "name": "Genius Oud Mystique",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787761552064234448_Replacing_product_in_reference_i…_202608261223.jpeg"
+    ]
+  },
+  {
+    "id": "spray-26-emper-melina-arina",
+    "name": "Melina Arina",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787761081280370942_Reemplazar_producto_en_imagen_pl…_202608241014.jpeg"
+    ]
+  },
+  {
+    "id": "spray-27-emper-bliss-love",
+    "name": "Bliss & Love",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787760933183602110_Image_composition_prompt_instruc…_202608241013.jpeg"
+    ]
+  },
+  {
+    "id": "spray-28-emper-genius-hayati",
+    "name": "Genius Hayati",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787759728917163371_Image_generation_prompt_with_ins…_202608261153.jpeg"
+    ]
+  },
+  {
+    "id": "spray-29-emper-chic-boy",
+    "name": "Chic Boy",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787759035303427213_Reemplazar_producto_en_imagen_pl…_202608261140.jpeg"
+    ]
+  },
+  {
+    "id": "spray-30-emper-legend-supreme",
+    "name": "Legend Supreme",
+    "brand": "Emper",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPEAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 8.0,
+    "price_mayor": 3.5,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787757432696245864_Product_composition_image_replac…_202608241002.jpeg"
+    ]
+  },
+  {
+    "id": "spray-31-lattafa-la-collection-d-antiquites",
+    "name": "La Collection D’ Antiquites",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787753782235511758_Replacing_product_in_composition…_202608221528.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787753782236866603_IMG_9368.jpeg"
+    ]
+  },
+  {
+    "id": "spray-32-lattafa-eternal-oud",
+    "name": "Eternal Oud",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787751803259826006_Reemplazar_producto_en_imagen_pl…_202608221523.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787751803261106482_IMG_9365.jpeg"
+    ]
+  },
+  {
+    "id": "spray-33-lattafa-queen-of-arabia",
+    "name": "Queen Of Arabia",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 5.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787751428881123346_Replace_product_in_image_composi…_202608221518.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787751428882329435_IMG_9363.jpeg"
+    ]
+  },
+  {
+    "id": "spray-34-lattafa-al-qiam-gold",
+    "name": "Al Qiam Gold",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787750739498517049_Replacing_product_in_image_template_202608260924.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787750739501112942_IMG_9361.jpeg"
+    ]
+  },
+  {
+    "id": "spray-35-lattafa-art-of-arabia",
+    "name": "Art Of Arabia",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787749153911627831_Replace_product_in_image_composi…_202608221506.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787749153913361073_IMG_9359.jpeg"
+    ]
+  },
+  {
+    "id": "spray-36-lattafa-affection",
+    "name": "Affection",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787747632863003211_Reemplazar_producto_en_imagen_pl…_202608221458.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787747632870145117_IMG_9358.jpeg"
+    ]
+  },
+  {
+    "id": "spray-37-lattafa-pisa",
+    "name": "Pisa",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787747060140638150_Reemplazar_producto_en_imagen_pl…_202608221456.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787747078204232336_IMG_9357.jpeg"
+    ]
+  },
+  {
+    "id": "spray-38-lattafa-shaheen-gold",
+    "name": "Shaheen Gold",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787746610405810973_Replacing_product_in_template_image_202608260811.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787746610425585923_IMG_9356.jpeg"
+    ]
+  },
+  {
+    "id": "spray-39-lattafa-ameerat-al-arab",
+    "name": "Ameerat Al Arab",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787671993547244164_Reemplazar_producto_usando_image…_202608240855.jpeg"
+    ]
+  },
+  {
+    "id": "spray-40-lattafa-yara-rose",
+    "name": "Yara Rose",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY DAMA",
+    "barcode": "",
+    "gender": "Dama",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787669053221343171_Replacing_product_in_image_compo…_202608240846.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787669053229393981_IMG_9007.jpeg"
+    ]
+  },
+  {
+    "id": "spray-41-lattafa-velvet-oud",
+    "name": "Velvet Oud",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787663621967527586_Composing_product_image_with_ins…_202608240829.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787663621971909646_IMG_9336.jpeg"
+    ]
+  },
+  {
+    "id": "spray-42-lattafa-fakhar",
+    "name": "Fakhar",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY CABALLERO",
+    "barcode": "",
+    "gender": "Caballero",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787662922758689770_Reemplazar_producto_en_imagen_pl…_202608240827.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787662922761983709_IMG_9335.jpeg"
+    ]
+  },
+  {
+    "id": "spray-43-lattafa-honor-glory",
+    "name": "Honor & Glory",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787661971677365921_Reemplazar_producto_en_imagen_pl…_202608240824.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787661971679530744_IMG_9334.jpeg"
+    ]
+  },
+  {
+    "id": "spray-44-lattafa-maahir-legacy",
+    "name": "Maahir Legacy",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787659857395668722_Reemplazar_producto_en_imagen_pl…_202608250808.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787659858044319766_IMG_9332.jpeg"
+    ]
+  },
+  {
+    "id": "spray-45-lattafa-maahir",
+    "name": "Maahir",
+    "brand": "Lattafa",
+    "category": "Spray",
+    "subcategory": "Body Spray & Ambientadores",
+    "description": "200ML SPRAY UNISEX",
+    "barcode": "",
+    "gender": "Unisex",
+    "concentration": "Body Spray",
+    "volume": "200 ml",
+    "price_detal": 6.5,
+    "price_mayor": 3.9,
+    "price_gran_mayor": 0.0,
+    "images": [
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787659402951410431_Image_composition_instruction_copy_202608240815.jpeg",
+      "https://catalogo.perfumesmacedon.com/static/uploads/1787659402968718273_IMG_9331.jpeg"
+    ]
   }
 ]

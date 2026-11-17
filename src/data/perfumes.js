@@ -4,7 +4,8 @@ export const CATEGORIES = [
   'Todas',
   'Perfumería Árabe',
   'Perfumería Diseñador',
-  'Splash'
+  'Splash',
+  'Spray'
 ];
 
 export const GENDERS = [
@@ -21,6 +22,8 @@ export const CONCENTRATIONS = [
   'Extrait de Parfum',
   'Parfum',
   'Body Splash',
+  'Body Spray',
+  'Ambientador Spray',
   'All Over Spray'
 ];
 
@@ -66,6 +69,9 @@ export const ALL_BRANDS = {
   ).sort(),
   'Splash': Array.from(
     new Set(PERFUMES_DATA.filter(p => p.category === 'Splash').map(p => p.brand))
+  ).sort(),
+  'Spray': Array.from(
+    new Set(PERFUMES_DATA.filter(p => p.category === 'Spray').map(p => p.brand))
   ).sort(),
   'Todas': Array.from(new Set(PERFUMES_DATA.map(p => p.brand))).sort()
 };
