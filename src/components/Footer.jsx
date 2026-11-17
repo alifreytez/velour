@@ -20,7 +20,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-neutral-300 leading-relaxed font-normal max-w-sm">
-              Especialistas en perfumería árabe, fragancias de diseñador y splash 100% auténticos. Atención personalizada y productos garantizados.
+              Especialistas en perfumería árabe, fragancias de diseñador, splash y spray 100% auténticos. Atención personalizada y productos garantizados.
             </p>
             <div className="pt-2 flex items-center gap-2 text-xs text-champagne-300 font-bold">
               <ShieldCheck className="w-4 h-4" />
@@ -37,6 +37,7 @@ export const Footer = () => {
               <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Perfumes Árabes (670+)</a></li>
               <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Perfumes Diseñador (830+)</a></li>
               <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Colección Splash (119+)</a></li>
+              <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Colección Spray & Ambientadores (45)</a></li>
               <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Fragancias para Dama</a></li>
               <li><a href="#catalogo" className="hover:text-champagne-300 transition-colors">Fragancias para Caballero</a></li>
             </ul>

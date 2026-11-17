@@ -45,7 +45,7 @@ export const Navbar = () => {
         <div className="inline-flex items-center justify-center gap-1.5 sm:gap-2 max-w-full">
           <Sparkles className="w-3 h-3 text-champagne-400 flex-shrink-0" />
           <span className="truncate sm:hidden">Velour · Fragancias Originales · Perfumería Garantizada</span>
-          <span className="hidden sm:inline">Velour · Fragancias Originales · Perfumería Árabe, Diseñador & Splash · 100% Auténticos</span>
+          <span className="hidden sm:inline">Velour · Fragancias Originales · Perfumería Árabe, Diseñador, Splash & Spray · 100% Auténticos</span>
           <Sparkles className="w-3 h-3 text-champagne-400 flex-shrink-0" />
         </div>
       </div>
@@ -165,7 +165,7 @@ export const Navbar = () => {
             onClick={() => scrollToCatalog('Todas')}
             className="block w-full text-left py-2 text-white hover:text-champagne-300 border-b border-burgundy-900"
           >
-            Todo el Catálogo (1,627)
+            Todo el Catálogo (1,672)
           </button>
           <button
             onClick={() => scrollToCatalog('Perfumería Árabe')}
@@ -184,6 +184,12 @@ export const Navbar = () => {
             className="block w-full text-left py-2 text-white hover:text-champagne-300 border-b border-burgundy-900"
           >
             Línea Splash & Body Mists (119)
+          </button>
+          <button
+            onClick={() => scrollToCatalog('Spray')}
+            className="block w-full text-left py-2 text-white hover:text-champagne-300 border-b border-burgundy-900"
+          >
+            Línea Spray & Ambientadores (45)
           </button>
           <button
             onClick={scrollToGuarantees}

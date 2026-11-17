@@ -44,7 +44,7 @@ const CatalogContent = () => {
                 Catálogo de Perfumería
               </h2>
               <p className="text-sm sm:text-base text-neutral-700 font-medium leading-relaxed">
-                Selección completa de Perfumería Árabe, Diseñador y Splash. Fragancias 100% originales garantizadas.
+                Selección completa de Perfumería Árabe, Diseñador, Splash y Spray. Fragancias 100% originales garantizadas.
               </p>
             </div>
 
