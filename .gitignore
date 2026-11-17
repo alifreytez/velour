@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Environment and local files
+.env
+.env.*
+*.local
+
+# Temporary scraps and analysis scripts
+scraps/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+*.log
