@@ -18,8 +18,6 @@ export const CatalogFilters = () => {
     setSelectedGender,
     selectedConcentration,
     setSelectedConcentration,
-    priceRange,
-    setPriceRange,
     sortBy,
     setSortBy,
     searchQuery,
@@ -182,7 +180,7 @@ export const CatalogFilters = () => {
 
       {/* Collapsible Advanced Filters */}
       {showAdvanced && (
-        <div className="pt-4 border-t border-neutral-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-xs text-neutral-800 animate-fadeIn bg-neutral-50 p-4 rounded-md">
+        <div className="pt-4 border-t border-neutral-200 grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs text-neutral-800 animate-fadeIn bg-neutral-50 p-4 rounded-md">
           
           {/* Concentration */}
           <div className="space-y-1.5">
@@ -203,27 +201,6 @@ export const CatalogFilters = () => {
             </div>
           </div>
 
-          {/* Price Slider */}
-          <div className="space-y-1.5">
-            <div className="flex justify-between items-center">
-              <label className="font-bold uppercase tracking-wider text-neutral-900">
-                Precio Máximo
-              </label>
-              <span className="font-extrabold text-burgundy-900 text-sm">
-                ${priceRange} USD
-              </span>
-            </div>
-            <input
-              type="range"
-              min="5"
-              max="400"
-              step="5"
-              value={priceRange}
-              onChange={(e) => setPriceRange(Number(e.target.value))}
-              className="w-full accent-burgundy-900 cursor-pointer"
-            />
-          </div>
-
           {/* Sort order */}
           <div className="space-y-1.5">
             <label className="font-bold uppercase tracking-wider text-neutral-900 block">
@@ -237,8 +214,7 @@ export const CatalogFilters = () => {
               >
                 <option value="destacados">Destacados & Bestsellers</option>
                 <option value="nombre-asc">Nombre: A - Z</option>
-                <option value="precio-asc">Precio: Más Bajo Primero</option>
-                <option value="precio-desc">Precio: Más Alto Primero</option>
+                <option value="nombre-desc">Nombre: Z - A</option>
               </select>
               <ChevronDown className="w-4 h-4 text-neutral-600 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>

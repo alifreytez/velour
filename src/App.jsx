@@ -58,7 +58,7 @@ const CatalogContent = () => {
                   No se encontraron perfumes con estos criterios
                 </h3>
                 <p className="text-sm text-neutral-700 font-medium max-w-md mx-auto">
-                  Prueba cambiando la marca, ampliando el rango de precio o buscando con un término diferente.
+                  Prueba cambiando la marca, seleccionando otra categoría o buscando con un término diferente.
                 </p>
                 <button
                   onClick={resetFilters}
