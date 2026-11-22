@@ -35,7 +35,6 @@ export const CatalogProvider = ({ children }) => {
   const [selectedBrand, setSelectedBrand] = useState('Todas');
   const [selectedGender, setSelectedGender] = useState('Todos');
   const [selectedConcentration, setSelectedConcentration] = useState('Todas');
-  const [priceRange, setPriceRange] = useState(400);
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('destacados');
   const [visibleCount, setVisibleCount] = useState(24);
@@ -61,7 +60,7 @@ export const CatalogProvider = ({ children }) => {
   // Reset pagination when any filter changes
   useEffect(() => {
     setVisibleCount(24);
-  }, [selectedCategory, selectedBrand, selectedGender, selectedConcentration, priceRange, searchQuery, sortBy]);
+  }, [selectedCategory, selectedBrand, selectedGender, selectedConcentration, searchQuery, sortBy]);
 
   // Cart operations
   const addToCart = (perfume, quantity = 1) => {
@@ -151,11 +150,6 @@ export const CatalogProvider = ({ children }) => {
         return false;
       }
 
-      const activePrice = p.price_detal > 0 ? p.price_detal : (p.price || 45);
-      if (activePrice > priceRange) {
-        return false;
-      }
-
       if (q) {
         const matchName = p.name.toLowerCase().includes(q);
         const matchBrand = p.brand.toLowerCase().includes(q);
@@ -168,12 +162,8 @@ export const CatalogProvider = ({ children }) => {
 
       return true;
     }).sort((a, b) => {
-      const priceA = a.price_detal > 0 ? a.price_detal : (a.price || 45);
-      const priceB = b.price_detal > 0 ? b.price_detal : (b.price || 45);
-
-      if (sortBy === 'precio-asc') return priceA - priceB;
-      if (sortBy === 'precio-desc') return priceB - priceA;
       if (sortBy === 'nombre-asc') return a.name.localeCompare(b.name);
+      if (sortBy === 'nombre-desc') return b.name.localeCompare(a.name);
       
       if (a.isBestseller && !b.isBestseller) return -1;
       if (!a.isBestseller && b.isBestseller) return 1;
@@ -184,7 +174,6 @@ export const CatalogProvider = ({ children }) => {
     selectedBrand,
     selectedGender,
     selectedConcentration,
-    priceRange,
     searchQuery,
     sortBy
   ]);
@@ -203,7 +192,6 @@ export const CatalogProvider = ({ children }) => {
     setSelectedBrand('Todas');
     setSelectedGender('Todos');
     setSelectedConcentration('Todas');
-    setPriceRange(400);
     setSearchQuery('');
     setSortBy('destacados');
     setVisibleCount(24);
@@ -214,20 +202,19 @@ export const CatalogProvider = ({ children }) => {
     (selectedBrand !== 'Todas' ? 1 : 0) +
     (selectedGender !== 'Todos' ? 1 : 0) +
     (selectedConcentration !== 'Todas' ? 1 : 0) +
-    (priceRange < 400 ? 1 : 0) +
     (searchQuery.trim() !== '' ? 1 : 0);
 
   // Generate WhatsApp order message with Velour branding
   const generateWhatsAppMessage = () => {
     if (cart.length === 0) return '';
-    let msg = `Hola Velour (Fragancias Originales). Deseo realizar el siguiente pedido del catálogo:%0A%0A`;
+    let msg = `Hola Velour (Fragancias Originales). Deseo solicitar información y disponibilidad para el siguiente pedido del catálogo:%0A%0A`;
     cart.forEach(item => {
       msg += `* ${item.brand} - ${item.name} (${item.volume}) x${item.quantity}%0A`;
       if (item.barcode) msg += `  Código: ${item.barcode}%0A`;
-      msg += `  Precio: $${item.price * item.quantity} USD%0A%0A`;
+      msg += `%0A`;
     });
-    msg += `*Total a Pagar:* $${cartSubtotal} USD%0A%0A`;
-    msg += `Por favor, confírmenme disponibilidad para procesar la compra. Muchas gracias.`;
+    msg += `*Total de Fragancias:* ${cartCount} unidad${cartCount !== 1 ? 'es' : ''}%0A%0A`;
+    msg += `Por favor, confírmenme disponibilidad para coordinar la compra. Muchas gracias.`;
     return msg;
   };
 
@@ -259,8 +246,6 @@ export const CatalogProvider = ({ children }) => {
         setSelectedGender,
         selectedConcentration,
         setSelectedConcentration,
-        priceRange,
-        setPriceRange,
         searchQuery,
         setSearchQuery,
         sortBy,

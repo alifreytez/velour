@@ -122,6 +122,6 @@ export const REVIEWS_SHOWCASE = [
     perfume: "Good Girl de Carolina Herrera",
     rating: 5,
     date: "Hace 1 semana",
-    comment: "Mi perfume favorito de siempre a un precio excelente. Llegó en perfecto estado con su celofán sellado."
+    comment: "Mi perfume favorito de siempre, calidad 100% original. Llegó en perfecto estado con su celofán sellado."
   }
 ];
