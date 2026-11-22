@@ -229,8 +229,8 @@ export const FragranceQuizModal = () => {
                   {recommendedPerfume.volume} · {recommendedPerfume.gender} · {recommendedPerfume.concentration}
                 </p>
 
-                <div className="pt-2 font-serif text-xl font-bold text-burgundy-900">
-                  ${recommendedPerfume.price_detal} USD
+                <div className="pt-2 text-xs font-bold text-emerald-800 uppercase tracking-wider">
+                  Disponible en Catálogo
                 </div>
               </div>
             </div>

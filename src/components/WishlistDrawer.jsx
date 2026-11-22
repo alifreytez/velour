@@ -103,7 +103,7 @@ export const WishlistDrawer = () => {
                         </button>
                       </div>
                       <p className="text-[11px] text-silk-600 font-light">
-                        {perfume.concentration} · Desde ${perfume.price} USD
+                        {perfume.concentration} · {perfume.volume || '100 ml'}
                       </p>
                     </div>
 

@@ -14,6 +14,7 @@ export const CartDrawer = () => {
     isCartOpen,
     setIsCartOpen,
     cart,
+    cartCount,
     removeFromCart,
     updateQuantity,
     cartSubtotal,
@@ -108,7 +109,7 @@ export const CartDrawer = () => {
 
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-xs font-bold text-neutral-700">
-                        {item.volume} · ${item.price} c/u
+                        {item.volume}
                       </span>
 
                       <div className="flex items-center gap-3">
@@ -129,10 +130,6 @@ export const CartDrawer = () => {
                             <Plus className="w-3 h-3" />
                           </button>
                         </div>
-
-                        <span className="font-serif font-black text-burgundy-950 text-base">
-                          ${item.price * item.quantity}
-                        </span>
                       </div>
                     </div>
                   </div>
@@ -148,9 +145,9 @@ export const CartDrawer = () => {
             
             <div className="space-y-2 text-xs text-neutral-800 font-semibold">
               <div className="flex justify-between text-base font-bold text-neutral-950">
-                <span className="font-serif text-lg">Total del Pedido</span>
-                <span className="font-serif text-2xl font-black text-burgundy-950">
-                  ${cartSubtotal} USD
+                <span className="font-serif text-lg">Total de Fragancias</span>
+                <span className="font-mono text-xl font-black text-burgundy-950">
+                  {cartCount} {cartCount === 1 ? 'unidad' : 'unidades'}
                 </span>
               </div>
             </div>
@@ -160,7 +157,7 @@ export const CartDrawer = () => {
               className="w-full py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded font-bold text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-md hover:shadow-lg"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>Enviar Pedido por WhatsApp</span>
+              <span>Consultar Disponibilidad por WhatsApp</span>
             </button>
 
             <p className="text-[11px] text-center text-neutral-600 font-medium">

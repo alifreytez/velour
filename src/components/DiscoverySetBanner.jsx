@@ -12,13 +12,12 @@ export const DiscoverySetBanner = () => {
     family: "Colección Completa",
     gender: "Unisex",
     concentration: "Extrait & Eau de Parfum",
-    price: 95,
-    sizes: [{ size: "5 x 10 ml", price: 95 }],
+    volume: "5 x 10 ml",
     image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=900&q=80"
   };
 
   const handleAddSet = () => {
-    addToCart(discoverySetProduct, discoverySetProduct.sizes[0], 1);
+    addToCart(discoverySetProduct, 1);
   };
 
   return (
@@ -40,8 +39,8 @@ export const DiscoverySetBanner = () => {
               <span className="px-3 py-1 bg-burgundy-900 text-champagne-300 text-xs font-semibold uppercase tracking-wider rounded-sm">
                 Edición de Prueba
               </span>
-              <span className="font-serif text-2xl font-bold text-silk-100">
-                $95 USD
+              <span className="font-serif text-sm font-bold text-silk-100 uppercase tracking-wider">
+                5 x 10 ml
               </span>
             </div>
           </div>
@@ -67,7 +66,7 @@ export const DiscoverySetBanner = () => {
                 Garantía 100% Canjeable
               </strong>
               <p className="text-silk-300 font-light">
-                Los $95 USD del set se convierten en un cupón íntegro de crédito para tu primera compra de un frasco de 100ml.
+                El valor del set se convierte en un cupón íntegro de crédito para tu primera compra de un frasco de 100ml.
               </p>
             </div>
 
@@ -76,7 +75,7 @@ export const DiscoverySetBanner = () => {
                 onClick={handleAddSet}
                 className="px-8 py-3.5 bg-champagne-500 hover:bg-champagne-400 text-burgundy-950 font-semibold text-xs uppercase tracking-wider rounded-sm transition-colors flex items-center justify-center gap-2 shadow-gold-glow"
               >
-                <span>Añadir Coffret a la Bolsa ($95 USD)</span>
+                <span>Añadir Coffret a la Bolsa</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
