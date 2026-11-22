@@ -31,7 +31,6 @@ export const PerfumeDetailModal = () => {
   if (!quickViewPerfume) return null;
 
   const isFavorite = isInWishlist(quickViewPerfume.id);
-  const unitPrice = quickViewPerfume.price_detal > 0 ? quickViewPerfume.price_detal : (quickViewPerfume.price || 45);
 
   const handleAddToCart = () => {
     addToCart(quickViewPerfume, quantity);
@@ -40,7 +39,7 @@ export const PerfumeDetailModal = () => {
 
   const handleWhatsAppInquiry = () => {
     const text = encodeURIComponent(
-      `Hola Velour (Fragancias Originales). Estoy interesado en el perfume "${quickViewPerfume.brand} - ${quickViewPerfume.name}" (${quickViewPerfume.volume}). Código: ${quickViewPerfume.barcode || 'N/A'}. Precio: $${unitPrice} USD c/u (Cantidad: ${quantity}). ¿Tienen disponibilidad inmediata?`
+      `Hola Velour (Fragancias Originales). Estoy interesado en consultar disponibilidad del perfume "${quickViewPerfume.brand} - ${quickViewPerfume.name}" (${quickViewPerfume.volume}). Código: ${quickViewPerfume.barcode || 'N/A'} (Cantidad: ${quantity}). ¿Tienen disponibilidad inmediata?`
     );
     window.open(`https://wa.me/?text=${text}`, '_blank');
   };
@@ -144,16 +143,15 @@ export const PerfumeDetailModal = () => {
               )}
             </div>
 
-            {/* Price Box */}
+            {/* Availability Box */}
             <div className="bg-neutral-50 p-4 rounded-lg border border-neutral-200 flex items-center justify-between">
               <div>
                 <span className="text-xs uppercase tracking-wider font-bold text-neutral-600 block">
-                  Precio por Unidad
+                  Garantía & Estado
                 </span>
-                <span className="font-serif text-3xl font-black text-burgundy-950">
-                  ${unitPrice}
+                <span className="text-sm font-bold text-neutral-900 block mt-0.5">
+                  100% Original Sellado de Fábrica
                 </span>
-                <span className="text-xs text-neutral-700 font-bold ml-1">USD</span>
               </div>
               <div className="text-right">
                 <span className="text-xs text-emerald-800 font-bold bg-emerald-50 px-2.5 py-1 rounded border border-emerald-200 inline-block">
@@ -162,8 +160,12 @@ export const PerfumeDetailModal = () => {
               </div>
             </div>
 
-            {/* Total and Quantity */}
+            {/* Quantity Selector */}
             <div className="flex items-center justify-between pt-2">
+              <span className="text-xs text-neutral-800 uppercase font-bold tracking-wider">
+                Cantidad a Solicitar
+              </span>
+
               <div className="flex items-center border border-neutral-300 rounded-md bg-white h-11 px-2 shadow-xs">
                 <button
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
@@ -180,14 +182,6 @@ export const PerfumeDetailModal = () => {
                 >
                   <Plus className="w-4 h-4" />
                 </button>
-              </div>
-
-              <div className="text-right">
-                <span className="text-xs text-neutral-700 uppercase font-bold tracking-wider block">Total a Pagar</span>
-                <span className="font-serif text-3xl font-black text-burgundy-950">
-                  ${unitPrice * quantity}
-                </span>
-                <span className="text-xs text-neutral-700 font-bold ml-1">USD</span>
               </div>
             </div>
 

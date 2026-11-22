@@ -124,18 +124,13 @@ export const PerfumeCard = ({ perfume }) => {
           </p>
         </div>
 
-        {/* Pricing & Add to Cart */}
+        {/* Actions & Details */}
         <div className="pt-3 border-t border-neutral-200 space-y-2.5">
           
-          <div className="flex items-baseline justify-between">
-            <div className="flex items-baseline">
-              <span className="font-serif text-2xl font-black text-burgundy-950">
-                ${perfume.price}
-              </span>
-              <span className="text-xs text-neutral-700 font-bold uppercase ml-1.5">
-                USD
-              </span>
-            </div>
+          <div className="flex items-center justify-between text-xs">
+            <span className="text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+              Disponible
+            </span>
             {perfume.barcode && (
               <span className="text-[10px] text-neutral-500 font-mono">
                 {perfume.barcode}
